@@ -1,0 +1,7 @@
+setwd("~/Desktop/Evolution/Tasks/Task_07")
+install.packages("rinat")
+library(rinat)
+install.packages("spocc")
+library(spocc)
+occ_names(query="Danaus plexippus")
+get_inat_obs(query= "Danaus plexippus")

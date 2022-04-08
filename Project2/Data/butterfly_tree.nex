@@ -1,0 +1,328 @@
+#NEXUS
+[written Sun Mar 01 16:40:07 CST 2015 by Mesquite  version 2.75 (build 564) at Eli-Desktop/10.0.0.3]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=130;
+	TAXLABELS
+		Agathymus_stephensi Megathymus_yuccae Ancyloxypha_numitor Calpodes_ethlius Anatrytone_logan Euphyes_conspicua Euphyes_dion Euphyes_vestris Hylephila_phyleus Polites_mystic Polites_themistocles Erynnis_icelus Erynnis_martialis Erynnis_juvenalis Erynnis_baptisiae Erynnis_lucilius Pyrgus_communis Pyrgus_centaureae Staphylus_hayhurstii Thorybes_pylades Thorybes_mexicana Urbanus_procne Urbanus_proteus Phocides_pigmalion Epargyreus_clarus Battus_philenor Eurytides_marcellus Papilio_palamedes Papilio_cresphontes Papilio_troilus Papilio_glaucus Papilio_polyxenes Parnassius_smintheus Parnassius_clodius Colias_interior Colias_meadii Colias_alexandra Colias_eurytheme Colias_philodice Colias_scudderi Nathalis_iole Phoebis_sennae Appias_drusilla Pontia_occidentalis Pontia_protodice Pieris_rapae Pieris_napi Neophasia_menapia Catasticta_nimbice Danaus_plexippus Vanessa_annabella Vanessa_cardui Vanessa_virginiensis Vanessa_atalanta Nymphalis_vaualbum Nymphalis_californica Polygonia_faunus Polygonia_comma Polygonia_progne Polygonia_gracilis Aglais_milberti Siproeta_stelenes Euphydryas_phaeton Phyciodes_graphica Phyciodes_phaon Phyciodes_tharos Anthanassa_texana Chlosyne_janais Chlosyne_gorgone Chlosyne_fulvia Chlosyne_lacinia Junonia_genoveva Junonia_coenia Eunica_monima Agraulis_vanillae Heliconius_charithonia Speyeria_atlantis Speyeria_cybele Speyeria_egleius Boloria_frigga Boloria_bellona Boloria_selene Boloria_freija Boloria_chariclea Marpesia_petreus Limenitis_archippus Adelpha_bredowii Mestra_amymone Asterocampa_celtis Anaea_andria Enodia_anthedon Satyrodes_eurydice Erebia_callias Cercyonis_oetus Cercyonis_pegala Cercyonis_sthenele Feniseca_tarquinius Lycaena_helloides Lycaena_mariposa Lycaena_hyllus Lycaena_heteronea Lycaena_phlaeas Lycaena_arota Lycaena_dorcas Lycaena_epixanthe Glaucopsyche_lygdamus Philotes_sonorensis Plebejus_glandon Plebejus_saepiolus Plebejus_idas Plebejus_melissa Callophrys_niphon Callophrys_affinis Callophrys_spinetorum Callophrys_augustinus Callophrys_gryneus Callophrys_henrici Callophrys_dumetorum Satyrium_acadica Satyrium_calanus Satyrium_edwardsii Satyrium_titus Satyrium_saepium Eumaeus_atala Strymon_istapa Atlides_halesus Chlorostrymon_simaethis Electrostrymon_angelica Phyciodes_cocyta Chlosyne_nycteis 
+	;
+
+END;
+
+
+BEGIN TREES;
+	Title 'Trees from "Thirdbutterflytree.nex"';
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 Agathymus_stephensi,
+		2 Megathymus_yuccae,
+		3 Ancyloxypha_numitor,
+		4 Calpodes_ethlius,
+		5 Anatrytone_logan,
+		6 Euphyes_conspicua,
+		7 Euphyes_dion,
+		8 Euphyes_vestris,
+		9 Hylephila_phyleus,
+		10 Polites_mystic,
+		11 Polites_themistocles,
+		12 Erynnis_icelus,
+		13 Erynnis_martialis,
+		14 Erynnis_juvenalis,
+		15 Erynnis_baptisiae,
+		16 Erynnis_lucilius,
+		17 Pyrgus_communis,
+		18 Pyrgus_centaureae,
+		19 Staphylus_hayhurstii,
+		20 Thorybes_pylades,
+		21 Thorybes_mexicana,
+		22 Urbanus_procne,
+		23 Urbanus_proteus,
+		24 Phocides_pigmalion,
+		25 Epargyreus_clarus,
+		26 Battus_philenor,
+		27 Eurytides_marcellus,
+		28 Papilio_palamedes,
+		29 Papilio_cresphontes,
+		30 Papilio_troilus,
+		31 Papilio_glaucus,
+		32 Papilio_polyxenes,
+		33 Parnassius_smintheus,
+		34 Parnassius_clodius,
+		35 Colias_interior,
+		36 Colias_meadii,
+		37 Colias_alexandra,
+		38 Colias_eurytheme,
+		39 Colias_philodice,
+		40 Colias_scudderi,
+		41 Nathalis_iole,
+		42 Phoebis_sennae,
+		43 Appias_drusilla,
+		44 Pontia_occidentalis,
+		45 Pontia_protodice,
+		46 Pieris_rapae,
+		47 Pieris_napi,
+		48 Neophasia_menapia,
+		49 Catasticta_nimbice,
+		50 Danaus_plexippus,
+		51 Vanessa_annabella,
+		52 Vanessa_cardui,
+		53 Vanessa_virginiensis,
+		54 Vanessa_atalanta,
+		55 Nymphalis_vaualbum,
+		56 Nymphalis_californica,
+		57 Polygonia_faunus,
+		58 Polygonia_comma,
+		59 Polygonia_progne,
+		60 Polygonia_gracilis,
+		61 Aglais_milberti,
+		62 Siproeta_stelenes,
+		63 Euphydryas_phaeton,
+		64 Phyciodes_graphica,
+		65 Phyciodes_phaon,
+		66 Phyciodes_tharos,
+		67 Anthanassa_texana,
+		68 Chlosyne_janais,
+		69 Chlosyne_gorgone,
+		70 Chlosyne_fulvia,
+		71 Chlosyne_lacinia,
+		72 Junonia_genoveva,
+		73 Junonia_coenia,
+		74 Eunica_monima,
+		75 Agraulis_vanillae,
+		76 Heliconius_charithonia,
+		77 Speyeria_atlantis,
+		78 Speyeria_cybele,
+		79 Speyeria_egleius,
+		80 Boloria_frigga,
+		81 Boloria_bellona,
+		82 Boloria_selene,
+		83 Boloria_freija,
+		84 Boloria_chariclea,
+		85 Marpesia_petreus,
+		86 Limenitis_archippus,
+		87 Adelpha_bredowii,
+		88 Mestra_amymone,
+		89 Asterocampa_celtis,
+		90 Anaea_andria,
+		91 Enodia_anthedon,
+		92 Satyrodes_eurydice,
+		93 Erebia_callias,
+		94 Cercyonis_oetus,
+		95 Cercyonis_pegala,
+		96 Cercyonis_sthenele,
+		97 Feniseca_tarquinius,
+		98 Lycaena_helloides,
+		99 Lycaena_mariposa,
+		100 Lycaena_hyllus,
+		101 Lycaena_heteronea,
+		102 Lycaena_phlaeas,
+		103 Lycaena_arota,
+		104 Lycaena_dorcas,
+		105 Lycaena_epixanthe,
+		106 Glaucopsyche_lygdamus,
+		107 Philotes_sonorensis,
+		108 Plebejus_glandon,
+		109 Plebejus_saepiolus,
+		110 Plebejus_idas,
+		111 Plebejus_melissa,
+		112 Callophrys_niphon,
+		113 Callophrys_affinis,
+		114 Callophrys_spinetorum,
+		115 Callophrys_augustinus,
+		116 Callophrys_gryneus,
+		117 Callophrys_henrici,
+		118 Callophrys_dumetorum,
+		119 Satyrium_acadica,
+		120 Satyrium_calanus,
+		121 Satyrium_edwardsii,
+		122 Satyrium_titus,
+		123 Satyrium_saepium,
+		124 Eumaeus_atala,
+		125 Strymon_istapa,
+		126 Atlides_halesus,
+		127 Chlorostrymon_simaethis,
+		128 Electrostrymon_angelica,
+		129 Phyciodes_cocyta,
+		130 Chlosyne_nycteis;
+	TREE UNTITLED = ((((((1:1.0,2:1.0):6.0,(3:6.0,(4:5.0,(5:4.0,((6:1.0,7:1.0,8:1.0):2.0,(9:2.0,(10:1.0,11:1.0):1.0):1.0):1.0):1.0):1.0):1.0):1.0,(((12:3.0,(13:2.0,14:2.0,(15:1.0,16:1.0):1.0):1.0):1.0,(17:1.0,18:1.0):3.0):1.0,19:5.0):3.0):1.0,((((20:1.0,21:1.0):1.0,(22:1.0,23:1.0):1.0):1.0,24:3.0):1.0,25:4.0):5.0):6.0,((((((35:1.0,36:1.0,37:1.0):1.0,(38:1.0,39:1.0):1.0,40:2.0):1.0,42:3.0):1.0,41:4.0):1.0,(43:4.0,(((44:1.0,45:1.0):1.0,(46:1.0,47:1.0):1.0):1.0,(48:1.0,49:1.0):2.0):1.0):1.0)Pieridae:9.0,((50:12.0,((((((51:3.0,((52:1.0,53:1.0):1.0,54:2.0):1.0):3.0,(((55:1.0,56:1.0):3.0,(57:3.0,(58:2.0,(59:1.0,60:1.0):1.0):1.0):1.0):1.0,61:5.0):1.0):2.0,(62:7.0,(63:6.0,(((64:3.0,(65:2.0,(129:1.0,66:1.0):1.0):1.0):1.0,67:4.0):1.0,(68:1.0,130:1.0,69:1.0,70:1.0,71:1.0):4.0):1.0):1.0,(72:1.0,73:1.0):6.0):1.0):1.0,74:9.0):1.0,((75:1.0,76:1.0):4.0,((77:1.0,78:1.0,79:1.0):3.0,((80:1.0,81:1.0):2.0,(82:2.0,(83:1.0,84:1.0):1.0):1.0):1.0):1.0):5.0):1.0,((85:2.0,(86:1.0,87:1.0):1.0):5.0,(88:6.0,(89:5.0,(90:4.0,((91:1.0,92:1.0):2.0,(93:2.0,(94:1.0,95:1.0,96:1.0):1.0):1.0):1.0):1.0):1.0):1.0):4.0)Nymphalidae:1.0):1.0,(97:7.0,(((((98:1.0,99:1.0):1.0,100:2.0):1.0,101:3.0):1.0,102:4.0,103:4.0,104:4.0,105:4.0)Lycaeninae:2.0,(((106:1.0,107:1.0):3.0,(108:3.0,(109:2.0,(110:1.0,111:1.0):1.0):1.0):1.0)Polyommatinae:1.0,(((112:1.0,113:1.0,114:1.0,115:1.0,116:1.0,117:1.0,118:1.0):1.0,(119:1.0,120:1.0,121:1.0,122:1.0,123:1.0):1.0):1.0,(124:1.0,125:1.0,126:1.0,127:1.0,128:1.0):2.0)Theclinae:2.0):1.0):1.0)Lycaenidae:6.0):1.0):1.0):1.0,(((26:3.0,(28:2.0,29:2.0,(30:1.0,31:1.0):1.0,32:2.0):1.0):1.0,27:4.0):1.0,(33:1.0,34:1.0):4.0):11.0)[% ] [% ] [%  setBetweenBits = selected ];
+
+END;
+
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		timeSaved 1425249607798;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 8127951249264740112;
+		endTell;
+		getWindow;
+		tell It;
+			suppress;
+			setResourcesState false false 316;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 1829 872;
+			setLocation 8 8;
+			setFont SanSerif;
+			setFontSize 10;
+			getToolPalette;
+			tell It;
+			endTell;
+			desuppress;
+		endTell;
+		getEmployee  #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			showTaxa #8127951249264740112 #mesquite.lists.TaxonList.TaxonList;
+			tell It;
+				setTaxa #8127951249264740112;
+				getWindow;
+				tell It;
+					newAssistant  #mesquite.lists.DefaultTaxaOrder.DefaultTaxaOrder;
+					newAssistant  #mesquite.lists.TaxonListCurrPartition.TaxonListCurrPartition;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1513 805;
+					setLocation 8 8;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+					endTell;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.lists.ColorTaxon.ColorTaxon;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.lists.TaxonListAnnotPanel.TaxonListAnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+			endTell;
+		endTell;
+		getEmployee  #mesquite.trees.BasicTreeWindowCoord.BasicTreeWindowCoord;
+		tell It;
+			makeTreeWindow #8127951249264740112  #mesquite.trees.BasicTreeWindowMaker.BasicTreeWindowMaker;
+			tell It;
+				suppressEPCResponse;
+				setTreeSource  #mesquite.trees.StoredTrees.StoredTrees;
+				tell It;
+					setTreeBlock 1;
+					toggleUseWeights off;
+				endTell;
+				setAssignedID 1820.1417561674498.8943802720598610143;
+				getTreeWindow;
+				tell It;
+					setExplanationSize 30;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1513 805;
+					setLocation 8 8;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool mesquite.trees.BasicTreeWindowMaker.BasicTreeWindow.arrow;
+					endTell;
+					setActive;
+					getTreeDrawCoordinator #mesquite.trees.BasicTreeDrawCoordinator.BasicTreeDrawCoordinator;
+				tell It;
+					suppress;
+					setTreeDrawer  #mesquite.trees.SquareTree.SquareTree;
+					tell It;
+						setNodeLocs #mesquite.trees.NodeLocsStandard.NodeLocsStandard;
+						tell It;
+							branchLengthsToggle on;
+							toggleScale on;
+							toggleBroadScale off;
+							toggleCenter on;
+							toggleEven on;
+						endTell;
+						setEdgeWidth 6;
+						orientUp;
+						setCornerMode Right_Angle  50;
+					endTell;
+					setBackground White;
+					setBranchColor Black;
+					showNodeNumbers off;
+					showBranchColors on;
+					labelBranchLengths off;
+					centerBrLenLabels on;
+					showBrLensUnspecified on;
+					showBrLenLabelsOnTerminals on;
+					setBrLenLabelColor 0 0 255;
+					setNumBrLenDecimals 6;
+					desuppress;
+					getEmployee #mesquite.trees.BasicDrawTaxonNames.BasicDrawTaxonNames;
+					tell It;
+						setColor Black;
+						toggleColorPartition on;
+						toggleShadePartition off;
+						toggleShowFootnotes on;
+						toggleNodeLabels on;
+						toggleCenterNodeNames off;
+						toggleShowNames on;
+						namesAngle ?;
+					endTell;
+				endTell;
+					setTreeNumber 1;
+					setDrawingSizeMode 0;
+					toggleLegendFloat on;
+					scale 0;
+					toggleTextOnTree off;
+					showWindow;
+				endTell;
+				desuppressEPCResponse;
+				getEmployee #mesquite.trees.ColorBranches.ColorBranches;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.ornamental.BranchNotes.BranchNotes;
+				tell It;
+					setAlwaysOn off;
+				endTell;
+				getEmployee #mesquite.ornamental.ColorTreeByPartition.ColorTreeByPartition;
+				tell It;
+					colorByPartition off;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocDoubles.DrawTreeAssocDoubles;
+				tell It;
+					setOn on;
+					setDigits 4;
+					writeAsPercentage off;
+					toggleCentred on;
+					toggleHorizontal on;
+					toggleWhiteEdges on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.ornamental.DrawTreeAssocStrings.DrawTreeAssocStrings;
+				tell It;
+					setOn on;
+					toggleCentred on;
+					toggleHorizontal on;
+					setFontSize 10;
+					setOffset 0  0;
+				endTell;
+				getEmployee #mesquite.trees.TreeInfoValues.TreeInfoValues;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		endTell;
+end;
+
+

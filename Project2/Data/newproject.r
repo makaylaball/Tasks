@@ -3,13 +3,22 @@ data1 <- read.csv("individual_collection_data.csv")
 data2 <- read.csv("individual_field_data.csv")
 library(phytools)
 treeb <- read.nexus("butterfly_tree.nex")
-plot(treeb)
+plot(treeb, cex=0.4)
 pdf("Phylogenetic Tree")
 
-#pearsons correlation: 
-cor(data1$N.family.level, data1$avg.eye.width, use="complete")
-cor(data1$N.family.level, data1$Wing.Length, use="complete")
+#Pearson's correlation: 
+cor.test(data1$N.family.level, data1$avg.eye.width, use="complete")
+cor.test(data1$N.family.level, data1$Wing.Length, use="complete")
 
+#Spearman's correlation: 
+cor.test(data1$N.family.level, data1$avg.eye.width, use="complete", method= "spearman", exact= FALSE)
+cor.test(data1$N.family.level, data1$Wing.Length, use="complete", method="spearman", exact= FALSE)
+
+#Kendall's correlation: 
+cor.test(data1$N.family.level, data1$avg.eye.width, use="complete", method= "kendall")
+cor.test(data1$N.family.level, data1$Wing.Length, use="complete", method="kendall")
+
+#ANOVA (didn't end up using)
 Drops <- setdiff(treeb$tip.label, data1$Species)
 treec <- drop.tip(treeb, Drops)
 
@@ -35,15 +44,14 @@ summary(treec)
 Model <- lm(Eye~Nitro)
 plot(Nitro, Eye)
 abline(Model)
-legend("topleft", legend=paste("R2=", format(summary(Model)$r.squared)))
-plot(x=Nitro, y=Eye, xlab="Nitrogen", ylab="Eye Width", main='Nitrogen vs Eye Width')
+plot(x=Nitro, y=Eye, xlab=" Percent Nitrogen Intake", ylab="Eye Width", main='Nitrogen vs Eye Width')
 summary(Model)
 
 #scatterplot for nitrogen and wing length
 plot(Nitro, Wing)
 Model <- lm(Wing~Nitro)
 abline(Model)
-plot(x=Nitro, y=Wing, xlab="Nitrogen", ylab="Wing Length", main='Nitrogen vs Wing Length')
+plot(x=Nitro, y=Wing, xlab=" Percent Nitrogen Intake", ylab="Wing Length", main='Nitrogen vs Wing Length')
 legend("topleft", legend=paste("R2=", format(summary(Model)$r.squared)))
 summary(Model)
 
